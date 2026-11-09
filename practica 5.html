@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoMotors</title>
+    <link rel="stylesheet" href="practica 5.css">
+</head>
+<body>
+
+    <!-- MENU -->
+    <header class="menu">
+        <a href="#inicio" class="logo">Auto<span>Motors</span></a>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#autos">Catálogo</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- INICIO -->
+    <section class="inicio" id="inicio">
+        <h1>Encuentra el auto de tus sueños</h1>
+        <p>Los mejores vehículos nuevos y seminuevos al mejor precio del mercado.</p>
+        <a href="#autos" class="boton">Ver Catálogo</a>
+    </section>
+
+    <!-- CATALOGO (autos) -->
+    <section class="catalogo" id="autos">
+        <h2>Nuestros Vehículos Destacados</h2>
+
+        <div class="contenedor-autos">
+
+            <div class="tarjeta">
+                <div class="caja-imagen">
+                    <img src="descarga (5).jpg" alt="Deportivo GT 2025">
+                </div>
+                <div class="datos-auto">
+                    <h3>Deportivo GT 2025</h3>
+                    <div class="detalles">
+                        <span>Gasolina</span>
+                        <span>Automático</span>
+                        <span>15,000 km</span>
+                    </div>
+                    <p class="precio">$32,500 USD</p>
+                    <a href="#contacto" class="boton">Más Información</a>
+                </div>
+            </div>
+
+            <div class="tarjeta">
+                <div class="caja-imagen">
+                    <img src="descarga (6).jpg" alt="SUV Familiar X-Trail">
+                </div>
+                <div class="datos-auto">
+                    <h3>SUV Familiar X-Trail</h3>
+                    <div class="detalles">
+                        <span>Híbrido</span>
+                        <span>Automático</span>
+                        <span>5,000 km</span>
+                    </div>
+                    <p class="precio">$28,900 USD</p>
+                    <a href="#contacto" class="boton">Más Información</a>
+                </div>
+            </div>
+
+            <div class="tarjeta">
+                <div class="caja-imagen">
+                    <img src="descarga (7).jpg" alt="Sedán Ejecutivo Pro">
+                </div>
+                <div class="datos-auto">
+                    <h3>Sedán Ejecutivo Pro</h3>
+                    <div class="detalles">
+                        <span>Diésel</span>
+                        <span>Manual</span>
+                        <span>22,000 km</span>
+                    </div>
+                    <p class="precio">$21,400 USD</p>
+                    <a href="#contacto" class="boton">Más Información</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTACTO (formulario) -->
+    <section class="contacto" id="contacto">
+        <h2>Contacto</h2>
+        <form action="#contacto" method="get">
+            <input type="text" placeholder="Tu nombre" required>
+            <input type="email" placeholder="Tu correo" required>
+            <textarea placeholder="¿Qué vehículo te interesa?" required></textarea>
+            <button type="submit" class="boton">Enviar mensaje</button>
+        </form>
+    </section>
+
+    <!-- NOSOTROS (footer) -->
+    <footer class="footer" id="nosotros">
+        <h4>AutoMotors Concesionaria</h4>
+        <p>📍 Dirección: Av. Principal #123 | 📞 Teléfono: +123 456 7890 | ✉️ Correo: contacto@automotors.com</p>
+        <p>© 2026 AutoMotors. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
